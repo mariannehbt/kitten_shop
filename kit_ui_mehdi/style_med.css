@@ -1,0 +1,31 @@
+.form-size {
+    width: 500px;
+    margin: auto;
+}
+#span-user-icon{
+    font-size: rem;
+    color: #F49D14 !important;
+}
+.div-icon{
+    text-align: center;
+    
+}
+.center-div {
+    margin: 0 auto;
+    width: 100px; 
+}
+
+.parent{
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
+}
+
+
+.form-color-primary{
+    background-color: #ef5912 !important;
+}
+
+.form-color-secondary{
+    background-color: #F49D14 !important;
+}
