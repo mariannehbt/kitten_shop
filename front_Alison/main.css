@@ -161,3 +161,10 @@ a.text-warning:hover, a.text-warning:focus {
   margin-right: 1.5em;
 }
 
+.bg-primary {
+  background-color: #ef5912 !important;
+}
+
+.bg-secondary {
+  background-color: #F49D14 !important;
+}
