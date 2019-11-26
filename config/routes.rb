@@ -1,7 +1,17 @@
 Rails.application.routes.draw do
-  devise_for :users
-  resources :orders
-  resources :carts
-  resources :items
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+
+	root to: 'items#index'
+
+	devise_for :users
+
+	# get 'index', to: 'static_pages#index'
+	# get 'secret', to: 'static_pages#secret'
+
+	resources :items
+	resources :carts
+	resources :orders
+
+	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
 end
